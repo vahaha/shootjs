@@ -1,0 +1,21 @@
+{
+  "name": "@vahaha/shootjs",
+  "version": "1.0.0",
+  "description": "initial project in componenet structure oriented",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "shootjs": "./bin/index.js"
+  },
+  "preferGlobal": true,
+  "author": "Viet Anh Do",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "change-case": "^4.1.2",
+    "commander": "^6.2.1",
+    "inquirer": "^7.3.3"
+  }
+}
